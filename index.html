@@ -26,6 +26,12 @@
       * {
         font-family: "Courier New", Courier, monospace;
       }
+
+      @media only screen and (max-width: 600px) {
+        #divcontent {
+          background-size: 100%;
+        }
+      }
     </style>
   </head>
   <body>
@@ -58,7 +64,7 @@
             <a class="nav-link" href="aboutUs.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Memories</a>
+            <a class="nav-link" href="memories.html">Memories</a>
           </li>
         </ul>
       </div>
@@ -129,17 +135,19 @@
         </p>
       </div>
     </div>
+    <hr />
     <div class="row">
       <ul
         class="list-group list-group-horizontal row p-0 bg-transparent"
         style="border: 0"
       >
         <li class="list-group-item col-lg-4 bg-transparent border-0">
-          <div class="card" style="width: 80%; margin: auto">
+          <div class="card" style="width: 100%; margin: auto; height: 590px">
             <img
               class="card-img-top"
               src="assets/img5.webp"
               alt="Card image cap"
+              style="height: 400px"
             />
             <div class="card-body">
               <h5 class="card-title">Developers</h5>
@@ -155,37 +163,26 @@
             </div>
           </div>
         </li>
-        <li class="list-group-item col-lg-4 bg-transparent border-0">
-          <div class="card" style="width: 80%; margin: auto">
+        <li class="list-group-item col-lg-8 bg-transparent border-0">
+          <div class="card" style="width: 100%; margin: auto; height: 590px">
             <img
               class="card-img-top"
-              src="assets/im2.jpg"
+              src="assets/fbc.jpg"
               alt="Card image cap"
+              style="height: 410px"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Contact Us</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                <span class="fas fa-map-marker"></span> : Fellowship Baptist
+                College, Kabankalan City
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </li>
-        <li class="list-group-item col-lg-4 bg-transparent border-0">
-          <div class="card" style="width: 80%; margin: auto">
-            <img
-              class="card-img-top"
-              src="assets/im2.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                <span class="fa fa-mobile"></span> : 09123321123
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p class="card-text">
+                <span class="fas fa-phone"></span> : 123-3123-123
+              </p>
             </div>
           </div>
         </li>
